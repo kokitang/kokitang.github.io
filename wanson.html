@@ -108,9 +108,9 @@ function goToDownlaod() {
 	}
 	if (isIOS) {
 		if("1" === appType && "1" === mergeFlag){
-			downloadApp("itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/kokitang/wansonPlist/master/itms-service.plist");
+			downloadApp("itms-services:///?action=download-manifest&url=https://raw.githubusercontent.com/kokitang/wansonPlist/master/itms-service.plist");
 		}else if("2" === appType){
-			downloadApp("itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/kokitang/wansonPlist/master/itms-service.plist");
+			downloadApp("itms-services:///?action=download-manifest&url=https://raw.githubusercontent.com/kokitang/wansonPlist/master/itms-service.plist");
 		}else{
 			layer.msg("请使用Android手机");
 		}
